@@ -54,7 +54,6 @@ header {
 }
 
 .main-perfil {
-    border: solid 2px darkgoldenrod;
     margin-top: 110px;
     width: 1208px;
     height: calc(100vh - 110px);
@@ -68,7 +67,6 @@ header {
     display: flex;
     width: 100%;
     justify-content: end;
-    object-fit: cover;
 }
 
 .container-img img {
@@ -76,10 +74,10 @@ header {
     width: 300px;
     height: 300px;
     margin-right: 250px;
+    object-fit: cover;
 }
 
 .profile-title {
-    border: solid 1px darkmagenta;
     width: 812px;
     height: 142px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -89,4 +87,32 @@ header {
     justify-content: center;
     align-items: center;
     color: #E7672E;
+}
+
+.profile-description {
+    font-size: 24px;
+    color: rgb(218, 222, 227);
+    width: 735px;
+    letter-spacing: 2px;
+}
+
+.curriculum-link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-color: rgb(46, 47, 49);
+    color: white;
+    width: 175px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+
+.curriculum-link:hover {
+    background-color: #E7672E;
+    color: #000000;
 }
