@@ -73,3 +73,31 @@ header {
 .portafolio-tools {
     color: #E7672E;
 }
+
+.api-usage {
+    width: 1208px;
+}
+
+.api-usage-title {
+    color: #3ACBC6;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.step-api-description {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.step-one-code {
+    color: #7ED07E;
+    background-color: #171717;
+    display: inline;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
