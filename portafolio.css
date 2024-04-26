@@ -83,6 +83,7 @@ header {
     font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 80px;
 }
 
 .step-api-description {
@@ -100,4 +101,13 @@ header {
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+.img-api-usage {
+    width: 60%;
+    height: 200px;
+}
+
+.link-json-postman {
+    color: #6366F1;
 }
