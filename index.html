@@ -6,9 +6,30 @@
     <title>Ricardo Alexander</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
+        <!--aqui empieza menu hamburguesa-->
+        <button class="hamburguer" id="hamburguer">
+            <span class="burguer"></span>
+            <span class="burguer"></span>
+            <span class="burguer"></span>
+        </button>
+        <div class="content" id="content">
+            <span class="material-symbols-outlined close" id="close">
+                close
+                </span>
+            <div class="flex">
+                <nav>
+                    <ul class="navigation"> 
+                        <li><a href="./index.html">sobre mí </a></li>
+                        <li><a href="./portafolio.html">portafolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--aqui finaliza menu hamburguesa-->
         <div class="header-container">
             <img class="logo" src="images/java.png" alt="java logo">
             <div class="nav-links">
@@ -44,6 +65,7 @@
                 <strong><a href="cv.pdf" target="_blank">CV</a></strong>
             </span>
         </div>
-    </section>    
+    </section>
+    <script src="js.js"></script>    
 </body>
 </html>

@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portafolio.css">
     <title>Portafolio</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
+        <!--aqui empieza menu hamburguesa-->
+        <button class="hamburguer" id="hamburguer">
+            <span class="burguer"></span>
+                <span class="burguer"></span>
+                <span class="burguer"></span>
+            </button>
+            <div class="content" id="content">
+                <span class="material-symbols-outlined close" id="close">
+                    close
+                </span>
+                <div class="flex">
+                    <nav>
+                        <ul class="navigation">
+                            <li><a href="./index.html">sobre mí </a></li>
+                            <li><a href="./portafolio.html">portafolio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+                <!--aqui finaliza menu hamburguesa-->
         <div class="header-container">
             <img class="logo" src="images/java.png" alt="java logo">
             <div class="nav-links">
@@ -105,5 +127,6 @@
             <p class="step-api-description">Abre el proyecto con Visual Studio y usa la extensión Live Server para correr el frontend.</p>
         </div>
     </section>
+    <script src="js.js"></script>
 </body>
 </html>
