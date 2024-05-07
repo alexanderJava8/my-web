@@ -290,3 +290,89 @@ header {
         font-size: 14px;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:1200px) {
+    header {
+        width: 100vw;
+    }
+
+    .hamburguer {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .header-container {
+        justify-content: space-between; 
+    }
+
+    .nav-links {
+        font-size: 20px;
+        width: 220px;
+        margin-right: 25px;
+    }
+
+    .logo {
+        height: 90%;
+    }
+    
+    .profile-title {
+        font-size: 50px;
+    }
+
+    .profile-description {
+        font-size: 20px;
+        width: 100vw;
+        letter-spacing: 1.64px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .contact-section {
+        width: 100vw;
+    }
+
+    .contact-title {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .contact-email {
+        font-size: 26px;
+    }
+
+    .container-img {
+        width: 100vw;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .container-img img {
+        margin-right: 0;
+    }
+
+    .header-container {
+        font-size: 80px;
+    }
+
+    .nav-links {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .hamburguer {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .container-img {
+        margin-top: 20px;
+    }
+}
+
