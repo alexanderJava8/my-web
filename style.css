@@ -233,5 +233,60 @@ header {
     .navigation a:hover {
         color: #E7672E;
         border-bottom: solid 1px;
-    } 
+    }
+    
+    /*--------------------*/
+    .main-perfil {
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .container-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-img img {
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+    }
+
+    .profile-title {
+        width: 100vw;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+
+    .profile-description {
+        width: 100vw;
+        font-size: 16px;
+        color: rgb(218, 222, 227);
+        line-height: 1.64;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .contact-section {
+        width: 100vw;
+    }
+
+    .contact-title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .contact-email {
+        font-size: 16px;
+    }
+
+    .contact-phone {
+        font-size: 16px;
+    }
+
+    .contact-links a {
+        font-size: 14px;
+    }
 }
